@@ -4441,3 +4441,139 @@ td:last-child {
         right: -2rem;
     }
 }
+
+.experience-details li, .job-description p {
+    font-size: 0.9em;
+    margin-left: 1.5em;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 0.3em;
+}
+
+.job-description {
+    margin-top: 0.5em;
+}
+
+.experience-branch {
+    margin-top: 0.5em;
+    padding-left: 0.5em;
+    border-left: 1px solid #ccc;
+}
+
+.branch-item {
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+    font-size: 0.7em;
+    color: #666;
+}
+
+.branch-item:before {
+    content: "";
+    position: absolute;
+    top: 0.7em;
+    left: 0;
+    width: 0.8em;
+    height: 1px;
+    background-color: #ccc;
+}
+
+/* 最后一个项目底部增加一些间距 */
+.branch-item:last-child {
+    margin-bottom: 0.8em;
+}
+
+/* 研究经验部分样式 - 垂直排列版本 */
+.research-entries {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.research-entry {
+    margin-bottom: 3rem;
+    background-color: rgba(250, 250, 250, 0.3);
+    border-radius: 5px;
+    padding: 2.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.research-entry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.research-entry__info {
+    width: 100%;
+}
+
+.research-entry__title {
+    margin-bottom: 0.6rem;
+    font-size: 3.0rem;
+    color: #333;
+}
+
+.research-entry__location {
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+    color: #555;
+}
+
+.research-entry__topic{
+    font-size: 2.0rem;
+    margin-bottom: 0.7rem;
+    color: #444;
+}
+
+.research-entry__advisor {
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+    color: #444;
+}
+
+/* 分支样式 - 沿用您之前选择的样式 */
+.experience-branch {
+    margin-top: 1.2rem;
+    padding-left: 0.5em;
+    border-left: 1px solid #ccc;
+}
+
+.branch-item {
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 0.6em;
+    line-height: 1.4;
+    font-size: 0.75em;
+    color: #666;
+}
+
+.branch-item:before {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    width: 0.8em;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.branch-item:last-child {
+    margin-bottom: 0.8em;
+}
+
+/* 适配移动设备 */
+@media screen and (max-width: 600px) {
+    .research-entry {
+        padding: 1.5rem;
+    }
+    
+    .research-entry__title {
+        font-size: 1.4rem;
+    }
+    
+    .research-entry__location {
+        font-size: 1rem;
+    }
+}
