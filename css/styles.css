@@ -4489,6 +4489,7 @@ td:last-child {
     max-width: 900px;
     margin: 2rem auto;
     padding: 0 1.5rem;
+    margin-bottom: 10rem;
 }
 
 .research-entry {
@@ -4583,6 +4584,7 @@ td:last-child {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem 0;
+    margin-bottom: 10rem;
 }
 
 .note-entry {
@@ -4607,18 +4609,18 @@ td:last-child {
 }
 
 .note-title {
-    font-size: 1.4rem;
+    font-size: 4rem;
     margin-bottom: 0.5rem;
     color: #333;
 }
 
 .note-description {
-    font-size: 0.9rem;
+    font-size: 2.5rem;
     color: #666;
     margin-bottom: 0.5rem;
 }
 
 .note-meta {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: #888;
 }
